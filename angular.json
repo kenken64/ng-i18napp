@@ -28,6 +28,27 @@
             "scripts": []
           },
           "configurations": {
+            "fr": {
+              "aot": true,
+              "outputPath": "dist/ng-i18napp-fr/",
+              "i18nFile": "src/locale/messages.fr.xlf",
+              "i18nFormat": "xlf",
+              "i18nLocale": "fr"
+            },
+            "zh-cn": {
+              "aot": true,
+              "outputPath": "dist/ng-i18napp-zhcn/",
+              "i18nFile": "src/locale/messages.zh-cn.xlf",
+              "i18nFormat": "xlf",
+              "i18nLocale": "zh-cn"
+            },
+            "fil": {
+              "aot": true,
+              "outputPath": "dist/ng-i18napp-fil/",
+              "i18nFile": "src/locale/messages.fil.xlf",
+              "i18nFormat": "xlf",
+              "i18nLocale": "fil"
+            },
             "production": {
               "fileReplacements": [
                 {
@@ -53,6 +74,15 @@
             "browserTarget": "ng-i8napp:build"
           },
           "configurations": {
+            "fr": {
+              "browserTarget": "ng-i8napp:build:fr"
+            },
+            "zh-cn": {
+              "browserTarget": "ng-i8napp:build:zh-cn"
+            },
+            "fil": {
+              "browserTarget": "ng-i8napp:build:fil"
+            },
             "production": {
               "browserTarget": "ng-i8napp:build:production"
             }
